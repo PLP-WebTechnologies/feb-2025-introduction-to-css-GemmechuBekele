@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Default font for the page */
+  line-height: 1.6; /* Improve readability */
+  background-color: #f9f9f9; /* Light background */
+  color: #333; /* Dark text color */
+  padding: 20px; /* Add space around the content */
+}
+
+/* Selector 1: Ordered List Styling */
+ol {
+  font-family: 'Georgia', serif; /* Elegant font for the list */
+  font-size: 18px; /* Larger font size */
+  color: #555; /* Gray text */
+  margin: 20px 0; /* Add space above and below the list */
+  padding-left: 40px; /* Indent the list items */
+  list-style: none;
+}
+
+/* Selector 2: Image Styling */
+img {
+  display: block; /* Make the image behave as a block element */
+  margin: 20px 20px; /* Center the image horizontally */
+  border: 1px solid #007BFF; /* Add a blue border */
+  padding: 10px; /* Add space inside the border */
+  background-color: #fff; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  width: 70%; /* Set a maximum width for the image */
+}
+
+/* Selector 3: Table Styling */
+table {
+  width: 70%; /* Make the table full-width */
+  border-collapse: collapse; /* Remove spacing between cells */
+  margin: 20px 20px; /* Add space above and below the table */
+  font-family: 'Verdana', sans-serif; /* Clean font for the table */
+  font-size: 16px; /* Medium font size */
+}
+
+table th,
+table td {
+  border: 1px solid #ddd; /* Add borders to cells */
+  padding: 10px; /* Add space inside cells */
+  text-align: left; /* Align text to the left */
+}
+
+table th {
+  background-color: #4CAF50; /* Green background for headers */
+  color: white; /* White text */
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row colors */
+}
+
+/* Selector 4: Form Styling */
+form {
+  font-family: 'Courier New', monospace; /* Monospaced font for the form */
+  font-size: 16px; /* Medium font size */
+  background-color: #fff; /* White background */
+  padding: 20px; /* Add space inside the form */
+  border: 1px solid #1f2c1f; /* Add a border */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 500px; /* Limit the form width */
+  margin: 20px auto; /* Center the form horizontally */
+}
+
+form label {
+  display: block; /* Make labels block elements */
+  margin: 10px 0 5px; /* Add space above and below labels */
+  font-weight: bold; /* Bold text for labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form input[type="date"] {
+  width: 100%; /* Full-width inputs */
+  padding: 10px; /* Add space inside inputs */
+  margin-bottom: 15px; /* Add space below inputs */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+form input{
+  background-color: white;
+  color: black; /* White text */
+  padding: 10px 20px; /* Add space inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  
+}
+form input[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Add space inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+form input[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Selector 5: Multimedia Elements Styling */
+h4, h5 {
+  font-family: 'Arial', sans-serif; /* Default font for headings */
+  color: black; /* Green text */
+  margin: 20px 0 10px; /* Add space above and below headings */
+}
+
+audio, video {
+  display: block; 
+  margin: 0px ; 
+  max-width: 100%; 
+}

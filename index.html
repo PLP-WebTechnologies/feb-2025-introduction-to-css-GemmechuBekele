@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Advanced HTML5 Elements and Forms</title>
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <!-- Ordered List with Roman Numerals -->
+    <h3>Order list </h3>
+   <ol type="I">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+   </ol> 
+   <br>
+
+   <!-- External Image from Pexels -->
+   <img src="/images/pexels-cottonbro-5483071.jpg" alt="Pexels-cottonbro" width="300" height="200"> 
+   <br><br>
+
+   <!-- Table of Contacts -->
+   <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+         <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Emails</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Angela</td>
+            <td>Nigeria</td>
+            <td>+2341177...</td>
+            <td>angela@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Gabriel</td>
+            <td>Kenya</td>
+            <td>+2541177...</td>
+            <td>gabriel@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Paul</td>
+            <td>Rwanda</td>
+            <td>+2501177...</td>
+            <td>paul@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Mzansi</td>
+            <td>South Africa</td>
+            <td>+271177...</td>
+            <td>mzansi@gmail.com</td>
+         </tr>
+         <tr>
+            <td>Gemmechu</td>
+            <td>Ethiopia</td>
+            <td>+2511177...</td>
+            <td>gemmechu@gmail.com</td>
+         </tr>
+      </tbody>
+   </table>
+   <br><br>
+
+   <!-- Registration Form -->
+   <form action="#">
+      <h4>Register</h4>
+
+      <!-- Dropdown for Department -->
+      <label for="dept">Department:</label>
+      <select name="dept" id="dept" required>
+         <option value="">Select your department</option>
+         <option value="IT">IT</option>
+         <option value="HR">HR</option>
+         <option value="Finance">Finance</option>
+         <option value="Marketing">Marketing</option>
+         <option value="SWE">SWE</option>
+      </select> 
+      <br><br>
+
+      <!-- Full Name Field -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+      <br><br>
+
+      <!-- Gender Radio Buttons -->
+      <label>Gender:</label> <br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <br>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <br><br>
+
+      <!-- Email Field -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email">
+      <br><br>
+
+      <!-- Password Field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{6,}" required placeholder="Enter your password">
+      <small>(At least 6 characters)</small>
+      <br><br>
+
+      <!-- Date Field -->
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <br><br>
+
+      <!-- Terms and Conditions Checkbox -->
+      <label for="terms">I agree to the Terms and Conditions</label> 
+      <input type="checkbox" id="terms" name="terms" required>
+      <br><br>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register">
+   </form>
+   <br><br>
+
+   <!-- Multimedia Elements -->
+   <h4>Multimedia Content</h4>
+
+   <!-- Audio Element -->
+   <h5>Audio Example</h5>
+   <audio controls>
+      <source src="audio/example-audio.mp3" type="audio/mp3">
+   </audio>
+   <br><br>
+
+   <!-- Video Element -->
+   <h5>Video Example</h5>
+   <video controls width="400">
+      <source src="videos/example-video.mp4" type="video/mp4">
+   </video>
+</body>
+</html>
